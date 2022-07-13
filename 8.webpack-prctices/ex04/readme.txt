@@ -12,7 +12,7 @@ $ npm i -D webpack webpack-cli webpack-dev-server style-loader css-loader
     }
 
 
-3. 
+3. 개발 서버 실행
 "scripts": {
     "build": "npx webpack",
     "start": "npx webpack serve --progress"
