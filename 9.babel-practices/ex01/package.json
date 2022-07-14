@@ -1,0 +1,12 @@
+{
+  "name": "ex01",
+  "version": "1.0.0",
+  "description": "1. Core Library\r 1) 변환(transpile) 규칙을 소스에 적용해서 변환된 소스를 생성\r 2) 변환 규칙을 가지고 있지 않다.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
