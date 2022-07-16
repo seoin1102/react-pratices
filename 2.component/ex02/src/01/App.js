@@ -1,12 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 function App() {
+  
     return (
         <div id='App'>
-            <h1>emaillist</h1>
+            <h1 style={h1Style}>Inline Styling</h1>
         </div>
     );
-    
 }
 
 export default App;
