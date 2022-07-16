@@ -3,6 +3,7 @@ import styles from "../assets/css/styles.css";
 
 const EmailItem = (props) => {
   const { firstName, lastName, email } = props.emailItem;
+  
   const closeHandler = () => {
     console.log("클릭쿠!!!");
   };
