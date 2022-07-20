@@ -10,8 +10,8 @@ ex03: Component - React Event
 
 ======================================================================================
 1. 설치
-[ex01]$ npm i -D webpack webpack-cli webpack-dev-server style-loader css-loader node-sass sass-loader babel-loader @babel/core @babel/cli @babel/preset-env @babel/preset-react
-[ex01]$ npm i react react-dom prop-types
+[ex03]$ npm i -D webpack webpack-cli webpack-dev-server style-loader css-loader node-sass sass-loader babel-loader @babel/core @babel/cli @babel/preset-env @babel/preset-react
+[ex03]$ npm i react react-dom prop-types
 
 2. 설정
 babel.config.json
@@ -20,4 +20,4 @@ webpack.config.js
 3. npm scripting
 
 4. 실행
-[ex01]$ npm run debug src=(01|02|...)
+[ex03]$ npm run debug src=(01|02|...)

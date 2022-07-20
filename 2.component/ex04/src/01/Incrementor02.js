@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-
+ //렌더 함수임
 export default function ({ begin, step }) {
     const [stateVal, setVal] = useState(begin);
     const [stateStep] = useState(step);
