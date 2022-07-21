@@ -12,6 +12,10 @@ ex04: State
         - 함수 컴포넌트에서는 상태 변경을 위해 userState 후크 함수에서 반환된 배열의 두번째 요소를 함수로 사용한다.
     2) 예제 src/01
 02. 제어 컴포넌트
+    1) input, textarea, options과 같은 폼(<form/>) 컴포넌트에서 사용자 입력에 따라 state값이 변경되고 렌더링하는 컴포넌트를 
+        제어 컴포넌트
+        -
+        -
     4) 제어 컴포넌트: 예제 src/02  
     5) 비제어 컴포넌트: 예제 src/03  
 03. 상태 컴포넌트 vs 순수(Pure, Dumb) 컴포넌트    
@@ -22,8 +26,7 @@ ex04: State
 ======================================================================================
 1. 설치
 [ex03]$ npm i -D webpack webpack-cli webpack-dev-server style-loader css-loader node-sass sass-loader babel-loader @babel/core @babel/cli @babel/preset-env @babel/preset-react
-[ex03]$ npm i react react-dom prop-types
-
+[ex03]$ npm i react react-dom prop-types @fortawesome/fontawesome-svg-core @fortawesome/react-fontawesome @fortawesome/free-solid-svg-icons @fortawesome/free-regular-svg-icons @fortawesome/free-brands-svg-icons
 2. 설정
 babel.config.json
 webpack.config.js
