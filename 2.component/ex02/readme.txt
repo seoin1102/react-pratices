@@ -23,7 +23,8 @@ ex02: Component Styling
         [ex02]$ npm i @fortawesome/free-regular-svg-icons
         [ex02]$ npm i @fortawesome/free-brands-svg-icons
 8) react Modal
-
+    - 설치
+        [ex02]$ npm i react-modal
 ======================================================================================
 1. 설치
 [ex01]$ npm i -D webpack webpack-cli webpack-dev-server style-loader css-loader node-sass sass-loader babel-loader @babel/core @babel/cli @babel/preset-env @babel/preset-react

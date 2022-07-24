@@ -18,19 +18,16 @@
     &:before {
       display: inline-block;
       width: 1em;
-      content: '▸';
+      content: "▸";
     }
   }
 
   .Card__Title__Open {
     &:before {
-      content: '▾';
+      content: "▾";
     }
   }
 
   .Card__Details {
   }
 }
-
-
-

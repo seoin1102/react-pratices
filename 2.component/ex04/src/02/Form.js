@@ -10,6 +10,9 @@ export default function Form() {
     const [vaildEmail, setValidEmail] = useState(false);
     const [password, setPassword] = useState("");
     const [gender, setGender] = useState("male");
+    const [birthYear, setBirthYear] = useState("1984");
+    const [description, setDescription] = useState("");
+    const [agreeProv, setAgreeProv] = useState("no");
 
     const onChangeNameInput = e=>{
         // setName(e.target.value)
@@ -28,6 +31,11 @@ export default function Form() {
 
     const onChangeInputGender = e => {
         setGender(e.target.value);
+    }
+
+    const onChangeInputAgreeProv = e =>{
+        const status = e.target.value === 'no' ? 'yes' : 'no';
+        setAgreeProv(status);
     }
     return (
         <form id="joinForm" name="joinForm" method="post" action="/do/not/post">
@@ -49,8 +57,8 @@ export default function Form() {
                 { email === '' ?
                     null:
                     vaildEmail ? 
-                        <FontAwesomeIcon icon={faCheckCircle} style={{fontSize:16, color:'blue'}}/>: 
-                        <FontAwesomeIcon icon={faTimesCircle} style={{fontSize:16, color:'red'}}/>
+                        <FontAwesomeIcon icon={faCheckCircle} style={{marginLeft:5, fontSize:16, color:'blue'}}/>: 
+                        <FontAwesomeIcon icon={faTimesCircle} style={{marginLeft:5,fontSize:16, color:'red'}}/>
                 }
 
             <label htmlFor="password">패스워드</label>
@@ -82,7 +90,10 @@ export default function Form() {
             </fieldset>
 
             <label htmlFor="birthYear">생년</label>
-            <select id="birthYear">
+            <select 
+                id="birthYear" 
+                value={birthYear}
+                onChange={e=> setBirthYear(e.target.value)}>
                 <option value='1984'>1984년</option>
                 <option value='1985'>1985년</option>
                 <option value='1986'>1986년</option>
@@ -93,11 +104,16 @@ export default function Form() {
             </select>
 
             <label htmlFor="birthYear">자기소개</label>
-            <textarea value={""} />
+            <textarea value={description} onChange={e=> setDescription(e.target.value)} />
 
             <fieldset>
                 <legend>약관동의</legend>
-                <input id="agree-prov" type="checkbox" name="agreeProv" value= { "yes" } defaultChecked={ false } />
+                <input 
+                    id="agree-prov" 
+                    type="checkbox" 
+                    name="agreeProv" 
+                    value= {agreeProv} checked={ agreeProv==='yes' }
+                    onChange={onChangeInputAgreeProv} />
                 <label>서비스 약관에 동의합니다.</label>
             </fieldset>
 

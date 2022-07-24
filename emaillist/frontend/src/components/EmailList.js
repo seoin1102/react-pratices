@@ -4,12 +4,14 @@ import EmailItem from "./EmailItem";
 import styles from "../assets/scss/EmailList.scss";
 
 const EmailList = (props) => {
-  const { emailsData } = props;
+  const { emailsData, onDeleteEmail } = props;
+
+  console.log(emailsData)
 
   return (
     <ul className={styles.Emaillist}>
-      {emailsData.map((emailItem, index) => (
-        <EmailItem key={index} emailItem={emailItem} />
+      {emailsData.reverse().map((emailItem, index) => (
+        <EmailItem key={index} emailItem={emailItem} onDeleteEmail={onDeleteEmail} />
       ))}
     </ul>
   );

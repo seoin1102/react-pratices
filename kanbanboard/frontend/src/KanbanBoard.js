@@ -1,17 +1,132 @@
-import React from 'react';
-import cards from './assets/json/data.json'
-import CardList from './CardList';
+import React, { useState, useEffect } from "react";
+import styles from "./assets/css/KabanBoard.css";
+import CardList from "./CardList";
+import dummyData from "./assets/json/data.json";
+
+let tasksCount = 7;
 
 function KanbanBoard() {
-    console.log(cards);
+  const [cards, setCards] = useState([]);
 
-    return (
-        <div className={'KanbanBoard'}>
-            <CardList title={'ToDo'} cards={cards.filter(e=>e.status==='ToDo')}/>
-            <CardList title={'Doing'} cards={cards.filter(e=>e.status==='Doing')}/>
-            <CardList title={'Done'} cards={cards.filter(e=>e.status==='Done')}/>
-        </div>
+  useEffect(() => {
+    setCards(dummyData);
+  }, []);
+
+  const addCardHandler = (e) => {
+    alert("헤헤");
+  };
+
+  const toggleTaskHandler = (cardNo, taskNo) => {
+    let newCardsArray = [...cards];
+    const selectedCardIndex = newCardsArray.findIndex((el) => el.no === cardNo);
+    const toggledTask = newCardsArray[selectedCardIndex].tasks.findIndex(
+      (el) => el.no === taskNo
     );
+    let taskValue = newCardsArray[selectedCardIndex].tasks[toggledTask].done;
+    newCardsArray[selectedCardIndex].tasks[toggledTask].done = !taskValue;
+
+    let cardStatus = newCardsArray[selectedCardIndex].status;
+    switch (cardStatus) {
+      case "ToDo":
+        newCardsArray[selectedCardIndex].status = "Doing";
+        break;
+      case "Doing":
+        if (
+          newCardsArray[selectedCardIndex].tasks.every(
+            (task) => task.done === true
+          )
+        ) {
+          newCardsArray[selectedCardIndex].status = "Done";
+        } else if (
+          newCardsArray[selectedCardIndex].tasks.every(
+            (task) => task.done === false
+          )
+        ) {
+          newCardsArray[selectedCardIndex].status = "ToDo";
+        }
+        break;
+      case "Done":
+        newCardsArray[selectedCardIndex].status = "Doing";
+        break;
+
+      default:
+        break;
+    }
+    setCards(newCardsArray);
+  };
+
+  const addTaskHandler = (cardNo, enteredTask) => {
+    let newCardsArray = [...cards];
+    const selectedCardIndex = newCardsArray.findIndex((el) => el.no === cardNo);
+    newCardsArray[selectedCardIndex].tasks.push({
+      no: ++tasksCount,
+      name: enteredTask,
+      done: false,
+    });
+
+    if (newCardsArray[selectedCardIndex].status === "Done") {
+      newCardsArray[selectedCardIndex].status = "Doing";
+    }
+
+    setCards(newCardsArray);
+  };
+
+  const removeTaskhandler = (cardNo, taskNo) => {
+    let newCardsArray = [...cards];
+    const selectedCardIndex = newCardsArray.findIndex((el) => el.no === cardNo);
+    const removingTaskIndex = newCardsArray[selectedCardIndex].tasks.findIndex(
+      (el) => el.no === taskNo
+    );
+
+    newCardsArray[selectedCardIndex].tasks.splice(removingTaskIndex, 1);
+    if (
+      newCardsArray[selectedCardIndex].tasks.every(
+        (task) => task.done === false
+      )
+    ) {
+      newCardsArray[selectedCardIndex].status = "ToDo";
+    } else if (
+      newCardsArray[selectedCardIndex].tasks.every((task) => task.done === true)
+    ) {
+      newCardsArray[selectedCardIndex].status = "Done";
+    }
+
+    setCards(newCardsArray);
+  };
+
+  return (
+    <div className={styles.KanbanBoard}>
+      <CardList
+        key="ToDo"
+        title="ToDo"
+        cards={cards.filter((card) => card.status == "ToDo")}
+        onAddCard={addCardHandler}
+        onToggle={toggleTaskHandler}
+        onAddTask={addTaskHandler}
+        onRemoveTask={removeTaskhandler}
+      />
+
+      <CardList
+        key="Doing"
+        title="Doing"
+        cards={cards.filter((card) => card.status == "Doing")}
+        onAddCard={addCardHandler}
+        onToggle={toggleTaskHandler}
+        onAddTask={addTaskHandler}
+        onRemoveTask={removeTaskhandler}
+      />
+
+      <CardList
+        key="Done"
+        title="Done"
+        cards={cards.filter((card) => card.status == "Done")}
+        onAddCard={addCardHandler}
+        onToggle={toggleTaskHandler}
+        onAddTask={addTaskHandler}
+        onRemoveTask={removeTaskhandler}
+      />
+    </div>
+  );
 }
 
 export default KanbanBoard;

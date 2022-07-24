@@ -1,0 +1,9 @@
+.add-button {
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  background-color: #8D8DAA;
+  color: #fff;
+  font-size: 0.9rem;
+  padding: 0.25em  0.5em;
+}
