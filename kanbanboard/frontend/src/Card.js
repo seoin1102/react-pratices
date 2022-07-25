@@ -15,10 +15,21 @@ export default function Card({
   onRemoveTask,
 }) {
   const [showDetail, setShowDetail] = useState(true);
+  const styleSideColor = {
+    position:'absolute',
+    zIndex: -1,
+    top: 0,
+    left: 0,
+    bottom: 0,
+    width: 3,
+    backgroundColor: status === 'ToDo' ? '#bd8D31' : (status === 'Doing' ? '#3a7e28' : '#222') 
+  }
 
   return (
     <div className={styles.Card}>
+      <div style={styleSideColor}/>
       <div
+      // showDetail이 true일때 Card__Title__Open의 css스타일이 오버라이딩됨.
         className={[
           `${styles["Card__Title"]} ${
             showDetail && styles["Card__Title__Open"]

@@ -3,7 +3,8 @@ import styles from "./assets/css/KabanBoard.css";
 import CardList from "./CardList";
 import dummyData from "./assets/json/data.json";
 
-let tasksCount = 7;
+// 태스크 초기 인덱스(초기 데이터 때문에...)
+let tasksInitialCount = 7;
 
 function KanbanBoard() {
   const [cards, setCards] = useState([]);
@@ -59,11 +60,12 @@ function KanbanBoard() {
     let newCardsArray = [...cards];
     const selectedCardIndex = newCardsArray.findIndex((el) => el.no === cardNo);
     newCardsArray[selectedCardIndex].tasks.push({
-      no: ++tasksCount,
+      no: ++tasksInitialCount,
       name: enteredTask,
       done: false,
     });
 
+    // 만약 Done이라면 Doing으로 상태변경을 해준다.
     if (newCardsArray[selectedCardIndex].status === "Done") {
       newCardsArray[selectedCardIndex].status = "Doing";
     }

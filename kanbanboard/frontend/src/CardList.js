@@ -12,11 +12,13 @@ export default function CardList({
   onAddTask,
   onRemoveTask,
 }) {
+
   return (
     <div className={styles.CardList}>
       <div className={styles["header-box"]}>
         <h1>{title}</h1>
         <Button onClick={onAddCard}>추가</Button>
+        
       </div>
       {cards.map((card) => (
         <Card
