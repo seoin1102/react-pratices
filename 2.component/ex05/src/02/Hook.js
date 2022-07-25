@@ -2,8 +2,8 @@ import React, { Fragment, useRef, useState, useEffect } from 'react';
 
 export default function Hook({ color }) {
     const [boxColor, setBoxColor] = useState(null);
-    const [title, setTitle] = useState('');
-    const h3Ref = useRef(null);
+    // const [title, setTitle] = useState('');
+    // const h3Ref = useRef(null);
 
     /**
      *   1. Alternative 01: getDerivedStateFromProps
