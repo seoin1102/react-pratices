@@ -8,7 +8,7 @@ export default function App() {
   const [hours, setHours] = useState("");
   const [minutes, setMinutes] = useState("");
   const [seconds, setSeconds] = useState("");
-
+  const [ticks, setTicks] = useState(0)
   const date = new Date();
   useEffect(() => {
     const hours = String(date.getHours());
@@ -28,16 +28,22 @@ export default function App() {
         setHours(hours);
         setMinutes(minutes);
         setSeconds(seconds);
+        //setTicks(ticks + 1);
+        //setTicks((ticks)=> ticks+1)
+        setTicks((prevTicks)=> prevTicks+1)
       },1000);
 
   }, []);
 
   return (
+    <>
+    <span>{ticks}</span>
     <Clock
       message={"ex05: useEffect Hook example"}
       hours={hours}
       minutes={minutes}
       seconds={seconds}
     />
+    </>
   );
 }
