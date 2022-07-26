@@ -5,9 +5,9 @@ import Clock from './Clock';
 export default class App extends Component {
     constructor(props) {
         const date = new Date()
-        const hours = String(date.getHours());
-        const minutes = String(date.getMinutes());
-        const seconds = String(date.getSeconds());
+        const hours = date.getHours();
+        const minutes = date.getMinutes();
+        const seconds = date.getSeconds();
         super(props);
 
         this.state = {
@@ -16,15 +16,13 @@ export default class App extends Component {
             seconds ,
             session: hours > 12 ? 'pm' : 'am'
         }
-       
     }
     componentDidMount() {
-
-        this.intervalID = setInterval(() =>{
+        setInterval(() =>{
             const date = new Date()
-            const hours = String(date.getHours());
-            const minutes = String(date.getMinutes());
-            const seconds = String(date.getSeconds());
+            const hours = date.getHours();
+            const minutes = date.getMinutes();
+            const seconds = date.getSeconds();
 
             this.setState( {
                 hours ,
@@ -32,16 +30,17 @@ export default class App extends Component {
                 seconds ,
                 session: hours > 12 ? 'pm' : 'am'
             })
-        }
-        , 1000);
+        }, 1000);
       }
- 
 
     render() {
         return (
             <div className='clock-display'>
                 <h2>ex05 - Component LifeCycle Practice</h2>
-                    <Clock hours={this.state.hours} minutes={this.state.minutes} seconds={this.state.seconds} session={this.state.session}/>
+                    <Clock 
+                        hours={this.state.hours} 
+                        minutes={this.state.minutes} 
+                        seconds={this.state.seconds} session={this.state.session}/>
             </div>
         );
     }

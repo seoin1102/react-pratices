@@ -32,8 +32,6 @@ export default function App() {
 
   }, []);
 
-
-
   return (
     <Clock
       message={"ex05: useEffect Hook example"}
