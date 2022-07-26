@@ -22,3 +22,24 @@ console.log(state.order.proucts, updateOrderProducts, state.order.proucts === up
 
 console.log('===================================');
 
+state = {
+    order: JSON.parse(fs.readFileSync('./json/data.json', 'utf-8'))
+}
+
+const updateOrderProducts2 = state.order.products.concat({
+    no: "p002-003",
+    name: "블루 양말",
+    price: 2000,
+    amount: 1
+})
+
+console.log(state.order.proucts, updateOrderProducts2, state.order.proucts === updateOrderProducts2)
+console.log('===================================');
+ 
+const updateOrderProducts3 = [... state.order.products,{
+    no: "p002-003",
+    name: "블루 양말",
+    price: 2000,
+    amount: 1
+}]
+console.log(state.order.proucts, updateOrderProducts3, state.order.proucts === updateOrderProducts3)
