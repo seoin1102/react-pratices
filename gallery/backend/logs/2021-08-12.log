@@ -1,0 +1,219 @@
+2021-08-12 02:10:19 info: Listening on port 8888
+2021-08-12 02:15:19 info: Listening on port 8888
+2021-08-12 02:16:10 error: ReferenceError: result is not defined
+    at index (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/backend/controllers/gallery.js:19:27)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2021-08-12 02:16:45 info: Listening on port 8888
+2021-08-12 02:16:51 info: Listening on port 8888
+2021-08-12 02:17:02 info: Listening on port 8888
+2021-08-12 02:17:57 info: Listening on port 8888
+2021-08-12 02:18:04 info: Listening on port 8888
+2021-08-12 11:19:20 info: Listening on port 8888
+2021-08-12 13:11:53 error: Error: error: no file attached
+    at create (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/backend/controllers/gallery.js:46:23)
+    at Layer.handle [as handle_request] (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:47:12)
+2021-08-12 13:13:12 error: Error: error: no file attached
+    at create (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/backend/controllers/gallery.js:46:23)
+    at Layer.handle [as handle_request] (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:47:12)
+2021-08-12 13:17:43 info: Listening on port 8888
+2021-08-12 13:17:57 error: Error: error: no file attached
+    at create (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/backend/controllers/gallery.js:46:23)
+    at Layer.handle [as handle_request] (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:47:12)
+2021-08-12 13:18:12 info: Listening on port 8888
+2021-08-12 13:23:28 error: Error: error: no file attached
+    at create (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/backend/controllers/gallery.js:46:23)
+    at Layer.handle [as handle_request] (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:47:12)
+2021-08-12 13:24:58 error: Error: error: no file attached
+    at create (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/backend/controllers/gallery.js:46:23)
+    at Layer.handle [as handle_request] (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:47:12)
+2021-08-12 13:25:58 error: Error: error: no file attached
+    at create (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/backend/controllers/gallery.js:46:23)
+    at Layer.handle [as handle_request] (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:47:12)
+2021-08-12 13:55:19 error: Error: error: no file attached
+    at create (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/backend/controllers/gallery.js:46:23)
+    at Layer.handle [as handle_request] (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:47:12)
+2021-08-12 13:56:13 error: Error: error: no file attached
+    at create (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/backend/controllers/gallery.js:46:23)
+    at Layer.handle [as handle_request] (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:47:12)
+2021-08-12 13:57:15 info: Listening on port 8888
+2021-08-12 13:57:21 info: Listening on port 8888
+2021-08-12 13:57:33 error: Error: error: no file attached
+    at create (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/backend/controllers/gallery.js:46:23)
+    at Layer.handle [as handle_request] (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:47:12)
+2021-08-12 13:58:11 error: Error: error: no file attached
+    at create (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/backend/controllers/gallery.js:46:23)
+    at Layer.handle [as handle_request] (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:47:12)
+2021-08-12 13:58:33 error: Error: error: no file attached
+    at create (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/backend/controllers/gallery.js:46:23)
+    at Layer.handle [as handle_request] (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:47:12)
+2021-08-12 13:59:38 error: Error: error: no file attached
+    at create (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/backend/controllers/gallery.js:46:23)
+    at Layer.handle [as handle_request] (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:47:12)
+2021-08-12 14:01:40 info: Listening on port 8888
+2021-08-12 14:01:42 info: Listening on port 8888
+2021-08-12 14:02:33 info: Listening on port 8888
+2021-08-12 14:03:22 info: Listening on port 8888
+2021-08-12 14:03:28 info: Listening on port 8888
+2021-08-12 14:03:45 error: Error: error: no file attached
+    at create (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/backend/controllers/gallery.js:47:23)
+    at Layer.handle [as handle_request] (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:47:12)
+2021-08-12 14:06:11 info: Listening on port 8888
+2021-08-12 14:06:32 error: Error: error: no file attached
+    at create (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/backend/controllers/gallery.js:47:23)
+    at Layer.handle [as handle_request] (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:47:12)
+2021-08-12 14:07:43 info: Listening on port 8888
+2021-08-12 14:24:55 info: Listening on port 8888
+2021-08-12 14:29:50 info: Listening on port 8888
+2021-08-12 14:29:55 info: Listening on port 8888
+2021-08-12 14:32:09 info: Listening on port 8888
+2021-08-12 14:32:22 info: Listening on port 8888
+2021-08-12 14:32:29 info: Listening on port 8888
+2021-08-12 14:34:16 error: Error: Multipart: Boundary not found
+    at new Multipart (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/busboy/lib/types/multipart.js:58:11)
+    at Multipart (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/busboy/lib/types/multipart.js:26:12)
+    at Busboy.parseHeaders (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/busboy/lib/main.js:71:22)
+    at new Busboy (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/busboy/lib/main.js:22:10)
+    at multerMiddleware (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/multer/lib/make-middleware.js:33:16)
+    at Layer.handle [as handle_request] (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:317:13)
+    at /Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:275:10)
+2021-08-12 14:34:59 error: Error: error: no file attached
+    at create (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/backend/controllers/gallery.js:45:23)
+    at Layer.handle [as handle_request] (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:47:12)
+2021-08-12 14:40:12 info: Listening on port 8888
+2021-08-12 16:32:41 error: Error: error: no file attached
+    at create (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/backend/controllers/gallery.js:45:23)
+    at Layer.handle [as handle_request] (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/node_modules/express/lib/router/index.js:47:12)
+2021-08-12 16:43:00 info: Listening on port 8888
+2021-08-12 17:30:01 info: Listening on port 8888
+2021-08-12 17:30:59 info: Listening on port 8888

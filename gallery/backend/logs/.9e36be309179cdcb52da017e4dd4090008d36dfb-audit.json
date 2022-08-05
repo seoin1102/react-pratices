@@ -1,0 +1,24 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/backend/logs/.9e36be309179cdcb52da017e4dd4090008d36dfb-audit.json",
+    "files": [
+        {
+            "date": 1628701818653,
+            "name": "/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/backend/logs/2021-08-12.log",
+            "hash": "63e2da4e895f28e9b90502a03311ba33"
+        },
+        {
+            "date": 1628816250390,
+            "name": "/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/backend/logs/2021-08-13.log",
+            "hash": "86fe5f6a6e19075d1f422702e3b80da9"
+        },
+        {
+            "date": 1628993571798,
+            "name": "/Users/kickscar/DoWork/WebstormProjects/react-practices/07.Integration/app04.Gallery/backend/logs/2021-08-15.log",
+            "hash": "581e5234e93dcb6572631e743b295f6e"
+        }
+    ]
+}
