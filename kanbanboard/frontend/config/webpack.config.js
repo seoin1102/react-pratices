@@ -36,7 +36,7 @@ module.exports = function(env) {
         
         devServer: {
             host: '0.0.0.0',
-            port: 9090,
+            port: 9099,
             liveReload: true,
             hot: true,
             compress: true
